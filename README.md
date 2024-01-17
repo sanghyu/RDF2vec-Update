@@ -1,1 +1,1 @@
-# rdf2vec-update
+# RDF2vec Update
