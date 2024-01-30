@@ -1,0 +1,189 @@
+test_name task_name gold_standard_file coverage model model_configuration metric score_value
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 NB - accuracy 0.7715952380952382
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 KNN K=3 accuracy 0.6940476190476189
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 C45 - accuracy 0.5318095238095237
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=0.001 accuracy 0.4955238095238096
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=0.01 accuracy 0.4955238095238096
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=0.1 accuracy 0.4955238095238096
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=1.0 accuracy 0.7692380952380952
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=10.0 accuracy 0.7634285714285712
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=100 accuracy 0.7629285714285713
+vectors_200_cosine_2_1 Classification Cities 0.981132075471698 SVM C=1000 accuracy 0.7629285714285713
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 NB - accuracy 0.601233971594503
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 KNN K=3 accuracy 0.6663978494623656
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 C45 - accuracy 0.5999427864987636
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=0.001 accuracy 0.5066873670289229
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=0.01 accuracy 0.506740842964752
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=0.1 accuracy 0.6899502616295783
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=1.0 accuracy 0.7262221838882179
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=10.0 accuracy 0.7109208786153756
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=100 accuracy 0.6857679259387041
+vectors_200_cosine_2_1 Classification MetacriticMovies 0.9345 SVM C=1000 accuracy 0.6695569547467081
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 NB - accuracy 0.6384228063680119
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 KNN K=3 accuracy 0.6639429840799704
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 C45 - accuracy 0.6056182895223989
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=0.001 accuracy 0.6311366160681231
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=0.01 accuracy 0.6311366160681231
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=0.1 accuracy 0.6311366160681231
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=1.0 accuracy 0.6773287671232876
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=10.0 accuracy 0.7262162162162162
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=100 accuracy 0.710516475379489
+vectors_200_cosine_2_1 Classification MetacriticAlbums 0.4575 SVM C=1000 accuracy 0.7057497223250648
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 NB - accuracy 0.5820425531914892
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 KNN K=3 accuracy 0.6254591265397537
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 C45 - accuracy 0.5517323628219486
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=0.001 accuracy 0.5480537513997762
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=0.01 accuracy 0.5480537513997762
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=0.1 accuracy 0.5571343784994399
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=1.0 accuracy 0.712676371780515
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=10.0 accuracy 0.7090795072788354
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=100 accuracy 0.6954636058230683
+vectors_200_cosine_2_1 Classification AAUP 0.9864583333333332 SVM C=1000 accuracy 0.6641970884658454
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 NB - accuracy 0.4550778867102397
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 KNN K=3 accuracy 0.5347031590413944
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 C45 - accuracy 0.5074950980392157
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=0.001 accuracy 0.488202614379085
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=0.01 accuracy 0.488202614379085
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=0.1 accuracy 0.5730620915032679
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=1.0 accuracy 0.6103153594771242
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=10.0 accuracy 0.5977009803921567
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=100 accuracy 0.5714438997821352
+vectors_200_cosine_2_1 Classification Forbes 0.8555205047318613 SVM C=1000 accuracy 0.5459428104575162
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine adjusted_rand_index 0.042465822512363
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine adjusted_mutual_info_score 0.013209835270783
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine homogeneity_score 0.094503984397563
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine completeness_score 0.049598911439811
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine v_measure_score 0.065054830794432
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine normalized_mutual_info_score 0.065054830794432
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 DBSCAN metric=cosine clustering_accuracy 0.7182972634591309
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" adjusted_rand_index 0.08812245690618402
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" adjusted_mutual_info_score 0.023257051841849
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" homogeneity_score 0.027204664974056
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" completeness_score 0.02053460265713
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" v_measure_score 0.023403668023497
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" normalized_mutual_info_score 0.023403668023497
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 KMeans "metric=enclidean, n_clusters=2" clustering_accuracy 0.6794848864246109
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" adjusted_rand_index -0.032724951178674
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" adjusted_mutual_info_score 0.139556546543038
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" homogeneity_score 0.168391639635708
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" completeness_score 0.11933467350568902
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" v_measure_score 0.139681081772591
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" normalized_mutual_info_score 0.139681081772591
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Agglomerative clustering" "metric=cosine, n_clusters=2" clustering_accuracy 0.516365587551422
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" adjusted_rand_index 0.429513736020004
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" adjusted_mutual_info_score 0.24341623489522696
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" homogeneity_score 0.260189320238006
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" completeness_score 0.228892949638207
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" v_measure_score 0.24353980768393305
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" normalized_mutual_info_score 0.24353980768393305
+vectors_200_cosine_2_2 Clustering citiesAndCountries_cluster 0.9769272044357002 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" clustering_accuracy 0.8426041852978
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine adjusted_rand_index -0.0035215090090740006
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine adjusted_mutual_info_score 0.013860316531866002
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine homogeneity_score 0.210588498771112
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine completeness_score 0.069756366621957
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine v_measure_score 0.104798698603226
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine normalized_mutual_info_score 0.104798698603226
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 DBSCAN metric=cosine clustering_accuracy 0.41390423572744
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" adjusted_rand_index 0.129669876405196
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" adjusted_mutual_info_score 0.171222138540475
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" homogeneity_score 0.171594152242686
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" completeness_score 0.171404252584072
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" v_measure_score 0.171499149844796
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" normalized_mutual_info_score 0.171499149844796
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 KMeans "metric=enclidean, n_clusters=2" clustering_accuracy 0.66804788213628
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" adjusted_rand_index 0.23357705937963005
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" adjusted_mutual_info_score 0.20503532733489
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" homogeneity_score 0.217677721333682
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" completeness_score 0.194229200165061
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" v_measure_score 0.205286036731592
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" normalized_mutual_info_score 0.205286036731592
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Agglomerative clustering" "metric=cosine, n_clusters=2" clustering_accuracy 0.728821362799263
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" adjusted_rand_index 0.202720255651577
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" adjusted_mutual_info_score 0.20111935147931093
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" homogeneity_score 0.209961132557576
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" completeness_score 0.193464596219762
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" v_measure_score 0.201375583333282
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" normalized_mutual_info_score 0.201375583333282
+vectors_200_cosine_2_2 Clustering cities2000AndCountries_cluster 0.9728360957642724 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" clustering_accuracy 0.7124769797421729
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine adjusted_rand_index 0.082956710752789
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine adjusted_mutual_info_score 0.133776906519189
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine homogeneity_score 0.25993432516346
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine completeness_score 0.212747575983771
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine v_measure_score 0.2339856781454321
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine normalized_mutual_info_score 0.2339856781454321
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 DBSCAN metric=cosine clustering_accuracy 0.38839075035394105
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" adjusted_rand_index 0.5669460675879421
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" adjusted_mutual_info_score 0.6293696650802939
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" homogeneity_score 0.673389273053082
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" completeness_score 0.591414776199674
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" v_measure_score 0.629745558536497
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" normalized_mutual_info_score 0.629745558536497
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 KMeans "metric=enclidean, n_clusters=5" clustering_accuracy 0.7058360862041841
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" adjusted_rand_index 0.517093192457294
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" adjusted_mutual_info_score 0.599500677172394
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" homogeneity_score 0.591267485622963
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" completeness_score 0.608885074875964
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" v_measure_score 0.59994697191763
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" normalized_mutual_info_score 0.59994697191763
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Agglomerative clustering" "metric=cosine, n_clusters=5" clustering_accuracy 0.7788264904829321
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" adjusted_rand_index 0.678324846154817
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" adjusted_mutual_info_score 0.7009940849778679
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" homogeneity_score 0.7451167399024878
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" completeness_score 0.662349098481453
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" v_measure_score 0.701299296193963
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" normalized_mutual_info_score 0.701299296193963
+vectors_200_cosine_2_2 Clustering citiesMoviesAlbumsCompaniesUni_cluster 0.8039955954066383 "Ward hierarchical clustering" "metric=cosine, n_clusters=5" clustering_accuracy 0.7841749252792201
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine adjusted_rand_index 0.013982505699693002
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine adjusted_mutual_info_score 0.014090740795001003
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine homogeneity_score 0.36110940059556107
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine completeness_score 0.009386597239368
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine v_measure_score 0.01829757148551
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine normalized_mutual_info_score 0.01829757148551
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 DBSCAN metric=cosine clustering_accuracy 0.780789348549691
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" adjusted_rand_index -0.001125418689974
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" adjusted_mutual_info_score 0.0013840324141479994
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" homogeneity_score 0.027683231784479
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" completeness_score 0.001021947672124
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" v_measure_score 0.001971129588079
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" normalized_mutual_info_score 0.001971129588079
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 KMeans "metric=enclidean, n_clusters=2" clustering_accuracy 0.647408464098906
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" adjusted_rand_index 0.0006406010806180001
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" adjusted_mutual_info_score 0.000726300780785
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" homogeneity_score 0.019376706957788
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" completeness_score 0.0006508078164480001
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" v_measure_score 0.0012593187409719998
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" normalized_mutual_info_score 0.0012593187409719998
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Agglomerative clustering" "metric=cosine, n_clusters=2" clustering_accuracy 0.497622444127437
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" adjusted_rand_index 0.00311507232097
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" adjusted_mutual_info_score -5.28291401e-06
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" homogeneity_score 0.008235475027285999
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" completeness_score 0.000323372912181
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" v_measure_score 0.000622310283255
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" normalized_mutual_info_score 0.000622310283255
+vectors_200_cosine_2_2 Clustering teams_cluster 0.9051355206847359 "Ward hierarchical clustering" "metric=cosine, n_clusters=2" clustering_accuracy 0.696148359486448
+vectors_200_cosine_2_3 Regression Cities 0.981132075471698 LR - root_mean_squared_error 50.962212746781795
+vectors_200_cosine_2_3 Regression Cities 0.981132075471698 KNN K=3 root_mean_squared_error 14.122491582420102
+vectors_200_cosine_2_3 Regression Cities 0.981132075471698 M5 - root_mean_squared_error 24.37366703506716
+vectors_200_cosine_2_3 Regression MetacriticMovies 0.9345 LR - root_mean_squared_error 21.055903273995305
+vectors_200_cosine_2_3 Regression MetacriticMovies 0.9345 KNN K=3 root_mean_squared_error 22.18986491330956
+vectors_200_cosine_2_3 Regression MetacriticMovies 0.9345 M5 - root_mean_squared_error 29.062723074075755
+vectors_200_cosine_2_3 Regression MetacriticAlbums 0.4575 LR - root_mean_squared_error 15.379632312433426
+vectors_200_cosine_2_3 Regression MetacriticAlbums 0.4575 KNN K=3 root_mean_squared_error 14.153818886358989
+vectors_200_cosine_2_3 Regression MetacriticAlbums 0.4575 M5 - root_mean_squared_error 18.65812977773305
+vectors_200_cosine_2_3 Regression AAUP 0.9864583333333332 LR - root_mean_squared_error 64.15391735394711
+vectors_200_cosine_2_3 Regression AAUP 0.9864583333333332 KNN K=3 root_mean_squared_error 67.87225525088887
+vectors_200_cosine_2_3 Regression AAUP 0.9864583333333332 M5 - root_mean_squared_error 92.09546484190712
+vectors_200_cosine_2_3 Regression Forbes 0.8555205047318613 LR - root_mean_squared_error 38.809709964874905
+vectors_200_cosine_2_3 Regression Forbes 0.8555205047318613 KNN K=3 root_mean_squared_error 37.37193637794853
+vectors_200_cosine_2_3 Regression Forbes 0.8555205047318613 M5 - root_mean_squared_error 51.97745357274779
+vectors_200_cosine_2_4 DocumentSimilarity LP50 0.9184952978056428 with_weights - pearson_score 0.543572530088023
+vectors_200_cosine_2_4 DocumentSimilarity LP50 0.9184952978056428 with_weights - spearman_score 0.322359112252791
+vectors_200_cosine_2_4 DocumentSimilarity LP50 0.9184952978056428 with_weights - harmonic_mean 0.4047099093653711
+vectors_200_cosine_2_4 DocumentSimilarity LP50 0.9184952978056428 without_weights - pearson_score 0.444840914325232
+vectors_200_cosine_2_4 DocumentSimilarity LP50 0.9184952978056428 without_weights - spearman_score 0.309872644059205
+vectors_200_cosine_2_4 DocumentSimilarity LP50 0.9184952978056428 without_weights - harmonic_mean 0.3652883369493111
+vectors_200_cosine_2_5 EntityRelatedness KORE 1.0 - - kendalltau_correlation 0.4506265664160401
+vectors_200_cosine_2_6 SemanticAnalogies capital_country_entities 1.0 - - accuracy 0.760869565217391
+vectors_200_cosine_2_6 SemanticAnalogies all_capital_country_entities 0.9827586206896551 - - accuracy 0.822312190733243
+vectors_200_cosine_2_6 SemanticAnalogies currency_entities 0.9330254041570438 - - accuracy 0.398514851485149
+vectors_200_cosine_2_6 SemanticAnalogies city_state_entities 0.9432509120389136 - - accuracy 0.446067898581865
