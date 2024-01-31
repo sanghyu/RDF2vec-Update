@@ -3,6 +3,10 @@ import time
 import random
 import pathlib
 
+"""
+This script generate update walks (see RDF2vec Update paper).
+Required inputs: new triples and/or new entities of a graph, the graph, output path (without trailing slash)
+"""
         
 parser = ArgumentParser(description='Generate RDF2vec Update walks from triples and/or entities')
 parser.add_argument('-d', '--depth', nargs='?', type=int, default=4, dest='depth', help='walk depth (here depth = hops between entities)')
@@ -15,6 +19,7 @@ args = parser.parse_args()
 
 start_time = time.time()
 
+# Load graph
 graph = []
 with open(args.graph, 'r', encoding='UTF-8') as file:
     for line in file:
@@ -22,6 +27,7 @@ with open(args.graph, 'r', encoding='UTF-8') as file:
         graph.append(line)
 print(f'Number of triples in graph: {len(graph)}')
 
+# Get all preceding and succeeding edges and entities for each entity and store them in separate dictionaries
 _pred = [x.rsplit(' ',1) for x in graph]
 _succ = [x.split(' ',1) for x in graph]
 
@@ -36,7 +42,7 @@ for k, v in _succ:
 d = args.depth
 n = args.walks_per_entity
 
-# Walks for RDF2vec Update 
+# Generate update walks (see RDF2vec Update paper) dependent on input (triples, entities, entities and triples)
 if args.input_triples:
     triples = []
     with open(args.input_triples, 'r', encoding='UTF-8') as file:
@@ -124,6 +130,7 @@ if args.input_entities:
 
 end_time = time.time()
 
+# Save walks
 pathlib.Path(f'{args.path}').mkdir(parents=True, exist_ok=True)
 with open(f'{args.path}/walks.txt', 'w') as f:
     if args.input_triples and not args.input_entities:

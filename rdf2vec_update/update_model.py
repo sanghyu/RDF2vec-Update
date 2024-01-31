@@ -2,6 +2,10 @@ from argparse import ArgumentParser
 from gensim.models import Word2Vec
 import time
 
+"""
+This script updates a pretrained RDF2vec model.
+Required inputs: RDF2vec model, walks
+"""
 
 parser = ArgumentParser(description='Update KGEs')
 parser.add_argument('-w', '--walks', dest='walk_path', required=True, help='path to walks file')
@@ -10,6 +14,7 @@ args = parser.parse_args()
 
 print(f'Updating KGEs with {args.walk_path} ...')
 
+# Get walks from txt file
 walks = []
 with open(f'{args.walk_path}', 'r', encoding='UTF-8') as file:
     for line in file:
@@ -17,6 +22,7 @@ with open(f'{args.walk_path}', 'r', encoding='UTF-8') as file:
         walk = line.split(' ')
         walks.append(walk)
 
+# Update model and save updated model separately
 model_updated = Word2Vec.load(f'{args.model_path}')
 start_time = time.time()
 model_updated.build_vocab(walks, update=True)

@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 import pathlib
 
 """
-This script finds the set of new entities and the set of new triples in an RDF graph and saves in separate txt files.
+This script compares two snapshots of an RDF graph, finds the set of new entities and new triples, and saves them in separate txt files.
 Required inputs: two snapshots of a graph, output path (without trailing slash)
 """
 
@@ -15,6 +15,7 @@ args = parser.parse_args()
 
 delimiter = args.delimiter
 
+# Load old graph
 triples_graph_old = []
 entities_graph_old = []
 with open(args.old_graph, 'r', encoding='UTF-8') as file:
@@ -25,6 +26,7 @@ with open(args.old_graph, 'r', encoding='UTF-8') as file:
         del elements[1]
         entities_graph_old.extend(elements)
 
+# Load new graph
 triples_graph_new = []
 entities_graph_new = []
 with open(args.new_graph, 'r', encoding='UTF-8') as file:
@@ -35,11 +37,13 @@ with open(args.new_graph, 'r', encoding='UTF-8') as file:
         del elements[1]
         entities_graph_new.extend(elements)
 
+# Compute new entities and new triples
 new_triples = list(set(triples_graph_new) - set(triples_graph_old))
 entities_graph_old = set(entities_graph_old)
 entities_graph_new = set(entities_graph_new)
 new_entities = list(entities_graph_new - entities_graph_old)
 
+# Compute new triples involving two old entities
 print('Computing new triples involving old entities')
 new_triples_old_entities = []
 for triple in new_triples:
@@ -47,6 +51,7 @@ for triple in new_triples:
     if v_start in entities_graph_old and v_end in entities_graph_old:
         new_triples_old_entities.append(triple)
 
+# Save as separate txt files
 pathlib.Path(f'{args.path}').mkdir(parents=True, exist_ok=True) 
 with open(f'{args.path}/new_entities.txt', 'w') as f:
     for entity in new_entities:
