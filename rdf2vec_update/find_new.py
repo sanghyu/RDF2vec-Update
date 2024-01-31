@@ -1,6 +1,10 @@
 from argparse import ArgumentParser
 import pathlib
 
+"""
+This script finds the set of new entities and the set of new triples in an RDF graph and saves in separate txt files.
+Required inputs: two snapshots of a graph, output path (without trailing slash)
+"""
 
 parser = ArgumentParser(description='Find')
 parser.add_argument('-d', '--delimiter', nargs='?', const=1, default=' ', dest='delimiter', help='delimiter')
