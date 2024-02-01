@@ -1,6 +1,6 @@
 # RDF2vec Update
 
-RDF2vec Update consists of three Python scripts for updating <a href="http://rdf2vec.org/">RDF2Vec</a> embeddings:
+RDF2vec Update consists of three Python scripts for updating <a href="http://rdf2vec.org/">RDF2vec</a> embeddings:
 
 - find_new.py
 - generate_walks.py
